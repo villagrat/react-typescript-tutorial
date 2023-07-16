@@ -5,6 +5,7 @@ import React, { ComponentProps } from 'react';
 // const Button = ({ className, ...rest }: ButtonHTMLAttributes<HTMLButtonElement>) => {...}
 // Sol 2 - recommended
 // use the ComponentProps type helper for a cleaner syntax
+//                    ^ can pass in any native type in here to get TS autocomplete
 // import { ComponentProps } from "react";
 // const Button = ({ className, ...rest }: ComponentProps<"button">) => {...}
 
